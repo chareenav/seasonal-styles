@@ -2,7 +2,7 @@ $("document").ready(function(){
         $('.seasons a').click(function(e){//find all a tags inside class of seasons
             e.preventDefault();//stop default submission
             var season = $(this).attr("href");//contents of href attribute of this element
-            alert(season);
+            //alert(season);
 
             season = season.toLowerCase();
 
@@ -45,7 +45,7 @@ $("document").ready(function(){
                     
                     $("html").css("background-color", "#ccc");
                     $("#wear").attr("src", "images/four-seasons.gif");
-                    $("#message").text("Default");
+                    $("#message").text("Fitz for all season!");
                 break;
                     //alert ("You didn't hit a case!");
 
